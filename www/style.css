@@ -529,22 +529,30 @@ footer {
 
 }
 
-#security-mechanisms {
+#security-mechanisms-panel {
 
 }
 
-#resources {
+#social-ethical-panel {
+
+}
+
+#mitigation-panel {
+
+}
+
+#resources-panel {
     background-color: var(--primary-color);
     padding: 0;
     width: 100vw;
     max-width: none;
 }
 
-#resources a {
+#resources-panel a {
     color: var(--alternate-color);
 }
 
-#resources a:hover {
+#resources-panel a:hover {
     color: var(--header-footer-color);
 }
 
