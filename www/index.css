@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+/* ============================= */
+/* ----- HOME HERO SECTION ----- */
+/* ============================= */
+
+#home-hero {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.85)),  url('images/home-splash.jpg') center center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.hero {
+    min-height: 80vh;
+    padding: 20px;
+    display: grid;
+    place-content: center;
+    text-align: center;
+}
+
+.hero h1 {
+    text-transform: uppercase;
+}
+
+.hero img {
+    height: 200px;
+    width: auto;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+/* ======================== */
+/* ----- Index Panels ----- */
+/* ======================== */
+
+.panel {
+    max-width: 1600px;
+    margin: auto;
+    padding: 60px 20px;
+    display: grid;
+    place-content: center;
+    text-align: center;
+}
+
+.panel h2 {
+    padding: 6px;
+}
+
+.panel img {
+    width: 50vw;
+    max-width: 1000px;
+    height: auto;
+}
+
+.panel .button {
+    background-color: transparent;
+    color: var(--font-color);
+    border: 1px solid var(--font-color);
+    border-radius: 5px;
+    justify-self: center;
+    padding: 20px 20px;
+    margin: 20px 0;
+    width: 100%;
+    text-decoration: none;
+
+    background-color: var(--primary-color);
+    color: var(--font-color);
+    border: 1px solid var(--primary-color);
+}
+
+.panel .button:hover {
+    background-color: var(--font-color);
+    color: var(--primary-color);
+    border: 1px solid var(--header-footer-color);
+}
+
+.l-panel {
+    text-align: left;
+    justify-content: left;
+    grid-template-columns: 2fr 1fr;
+}
+
+.l-panel h2 {
+    text-align: left;
+}
+
+.r-panel {
+    justify-content: right;
+    text-align: right;
+    grid-template-columns: 1fr 2fr;
+}
+
+.r-panel h2 {
+    text-align: right;
+}
+
+.article {
+    padding: 60px 20px;
+    display: flex;
+    flex-flow: column;
+}
+
+#resources-panel {
+    background-color: var(--primary-color);
+    padding: 0;
+    width: 100vw;
+    max-width: none;
+}
+
+#resources-panel a {
+    color: var(--alternate-color);
+}
+
+#resources-panel a:hover {
+    color: var(--header-footer-color);
+}

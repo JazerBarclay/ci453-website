@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+#security-mechanisms {
+    width: 100vw;
+    margin: auto;
+    max-width: 1600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#security-mechanisms img {
+    width: 100%;
+    height: 50vw;
+    height: 400px;
+    object-fit: cover;
+    margin: auto;
+    grid-column: 1/span 2;
+}
+
+#security-mechanisms #introduction {
+    width: 100vw;
+    grid-column: 1 /span 2;
+}
+
+.card {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
