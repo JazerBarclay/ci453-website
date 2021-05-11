@@ -27,6 +27,10 @@
     margin: 20px;
 }
 
+.content {
+    max-width: 800px;
+}
+
 #security-mechanisms {
     width: 100vw;
     margin: auto;
