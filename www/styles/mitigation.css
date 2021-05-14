@@ -63,3 +63,8 @@
     max-width: none;
     text-align: center;
 }
+
+.content img {
+    margin-top: 60px;
+    max-width: 800px;
+}
